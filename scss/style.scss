@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 100px;
+    .truck-section {
+        display: flex;
+        margin-top: 109px;
+        gap: 80px;
+        .truck-info {
+            margin-top: 81px;
+            h1 {
+                font-family: 'Exo 2';
+                font-size: 52px;
+                font-weight: 600;
+                line-height: 65px;
+                color: #363738;
+            }
+            p {
+                font-family: 'PT Sans';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #6B6B6C;
+                margin-top: 40px;
+            }
+                h5 {
+                    font-family: 'PT Sans';
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin-top: 40px;
+                    color: #363738;
+                    border-bottom: 3px solid #FFCE50;
+                    width: 104px;
+                }
+            }
+        }
+    }
+.search-section {
+    display: flex;
+    margin-top: 67px;
+    max-width: 1240px;
+    border: 1px solid #D7D7DD;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    padding: 40px 122px 40px 80px;
+    border-radius: 20px;
+    margin-bottom: 67px;
+    .search:nth-child(1) {
+        padding-right: 105px;
+    }
+    .search:nth-child(2) {
+        padding-right: 121px;
+        padding-left: 64px;
+    }
+    .search:last-child {
+        border-right: none;
+        padding-left: 64px;
+    }
+    .search {
+        border-right: 1px solid #D7D7DD;
+        .search-text {
+            margin-top: 24px;
+            h4 {
+                font-family: 'Exo 2';
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+                color: #363738;
+                margin-bottom: 16px;
+            }
+            p {
+                font-family: 'PT Sans';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #6B6B6C;
+            }
+        }
+    }
+}
+.position-img-section {
+    max-width: 1240px;
+    position: relative;
+    margin-bottom: 72.5px;
+    .position-img {
+        position: absolute;
+    }
+    .position-text {
+        position: absolute;
+        bottom: 166.5px;
+        left: 90px;
+        h2 {
+            font-family: 'Exo 2';
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            color: #FFFFFF;
+        }
+    }
+}
+.lorem-section {
+    max-width: 1242px;
+    display: flex;
+    gap: 140px;
+    margin-left: 98px;
+    align-items: center;
+    margin-bottom: 120px;
+    .lorem-ipsum {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        .ipsum-img {
+            background-color: #E9E9EC;
+            padding: 14px 18px 14px 18px;
+            border-radius: 50%;
+        }
+        .ipsum-text {
+            span {
+                font-family: 'Exo 2';
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+                color: #363738;
+            }
+            p {
+                font-family: 'PT Sans';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #6B6B6C;
+                margin-top: 8px;
+            }
+        }
+    }
+    .ipsum-dollar {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-top: 80px;
+        .dollar-img {
+            background-color: #E9E9EC;
+            padding: 18px 18px 14px 18px;
+            border-radius: 50%;
+        }
+        .dollar-text {
+            span {
+                font-family: 'Exo 2';
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+                color: #363738;
+            }
+            p {
+                font-family: 'PT Sans';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #6B6B6C;
+                margin-top: 8px;
+            }
+        }
+    }
+    .sit-amet {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        .amet-img {
+            background-color: #E9E9EC;
+            padding: 15px 20.98px 13px 20px;
+            border-radius: 50%;
+        }
+        .amet-text {
+            span {
+                font-family: 'Exo 2';
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+                color: #363738;
+            }
+            p {
+                font-family: 'PT Sans';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #6B6B6C;
+                margin-top: 8px;
+            }
+        }
+    }
+    .lorem-location {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-top: 80px;
+        .location-img {
+            background-color: #E9E9EC;
+            padding: 15px 20.98px 13px 20px;
+            border-radius: 50%;
+        }
+        .location-text {
+            span {
+                font-family: 'Exo 2';
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+                color: #363738;
+            }
+            p {
+                font-family: 'PT Sans';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #6B6B6C;
+                margin-top: 8px;
+            }
+        }
+    }
+}
+.job-section {
+    max-width: 1239px;
+    margin-bottom: 212px;
+    .title {
+        h3 {
+            font-family: 'Exo 2';
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            color: #363738;
+            margin-bottom: 32px;
+        }
+        p {
+            font-family: 'PT Sans';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #6B6B6C;
+            margin-bottom: 56px;
+        }
+    }
+    .job-carts {
+        display: flex;
+        gap: 30px;
+        .job-cart {
+            box-shadow: 0px 4px 15px 0px #0000001F;
+            width: 393px;
+            border-radius: 10px;
+            .job-info {
+                padding: 24px 70px 32px 32px;
+                h4 {
+                    font-family: 'Exo 2';
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    color: #363738;
+                    margin-bottom: 16px;
+                }
+                p {
+                    font-family: 'PT Sans';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: #6B6B6C;
+                    margin-bottom: 32px;
+                }
+                span {
+                    font-family: 'Exo 2';
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 21.6px;
+                    color: #363738;
+                    padding-bottom: 5px;
+                    border-bottom: 3px solid #FFCE50;
+                }
+            }
+        }
+    }
+}
+.client-section {
+    max-width: 1240px;
+    background-color: #0B7572;
+    padding: 85px 66px 85px 81px;
+    display: flex;
+    gap: 70px;
+    .client-text {
+        h2 {
+            font-family: 'Exo 2';
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            color:  #FFFFFF;
+        }
+    }
+    .table-wrapper {
+        width: 652px;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        .logo-header {
+            display: flex;
+            padding: 28px 40px 32px 41px;
+            gap: 194px;
+            border-bottom: 1px solid  #D7D7DD;
+            .logo-info {
+                p {
+                    font-family: 'PT Sans';
+                    font-size: 11px;
+                    font-weight: 400;
+                    line-height: 16.5px;
+                    color: #6B6B6C;
+                }
+            }
+        }
+        .nav {
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-top: 32px;
+            ul {
+                display: flex;
+                gap: 72px;
+                width: 588px;
+                background-color: #0B7572;
+                li {
+                    border-right: 1px solid #00000033
+                }
+            }
+        }
+    }
+}
