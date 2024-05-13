@@ -495,6 +495,7 @@
   text-align: center;
   margin-left: 78px;
   display: flex;
+  flex-wrap: wrap;
   gap: 73px;
   align-items: center;
 }
@@ -519,11 +520,130 @@
   font-weight: 400;
   line-height: 21px;
   color: #6b6b6c;
-  width: 184px;
+  width: 250px;
   margin-top: 14px;
-  margin-left: -40px;
+  margin-left: -55px;
 }
 
 .logotip:nth-child(2) .logo-title {
   padding-top: 24px;
+}
+
+.logotip-2 {
+  width: 183px;
+  margin-left: -30px;
+}
+.logotip-2 .logo-title {
+  margin-top: 31.79px;
+}
+.logotip-2 .logo-title span {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #363738;
+}
+.logotip-2 .logo-title p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6b6b6c;
+  padding-top: 14px;
+  width: 220px;
+}
+
+.logotip-3 {
+  width: 183px;
+  margin-left: -30px;
+}
+.logotip-3 .logotip-img {
+  margin-left: -20px;
+}
+.logotip-3 .logo-title {
+  padding-top: 59px;
+}
+.logotip-3 .logo-title span {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #363738;
+}
+.logotip-3 .logo-title p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6b6b6c;
+  padding-top: 14px;
+  width: 220px;
+  margin-left: -20px;
+}
+
+.logotip:nth-child(5) .logotip-img {
+  margin-left: -20px;
+}
+
+.company-section {
+  max-width: 1212px;
+}
+.company-section h2 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #363738;
+}
+.company-section .company-carts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.company-section .company-carts .company-cart {
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  width: 605px;
+  border-radius: 10px;
+  margin-top: 72px;
+  padding: 32px 0px 40px 83px;
+  position: relative;
+}
+.company-section .company-carts .company-cart .rotation {
+  width: 51px;
+  height: 210px;
+  background-color: #0B7572;
+  position: absolute;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  top: 0px;
+  left: 0px;
+}
+.company-section .company-carts .company-cart .company-about {
+  display: flex;
+  gap: 40px;
+}
+.company-section .company-carts .company-cart .company-about .employees-info {
+  padding-top: 15px;
+}
+.company-section .company-carts .company-cart .company-about .employees-info h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #363738;
+}
+.company-section .company-carts .company-cart .company-about .employees-info p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6B6B6C;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #FFCE50;
+}
+.company-section .company-carts .company-cart .company-about .employees-info .social-links {
+  display: flex;
+  gap: 20px;
+  padding-top: 35px;
 }/*# sourceMappingURL=style.css.map */

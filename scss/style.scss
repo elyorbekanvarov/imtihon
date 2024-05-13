@@ -504,6 +504,7 @@
     text-align: center;
     margin-left: 78px;
     display: flex;
+    flex-wrap: wrap;
     gap: 73px;
     align-items: center;
     .logotip {
@@ -525,9 +526,9 @@
           font-weight: 400;
           line-height: 21px;
           color: #6b6b6c;
-          width: 184px;
+          width: 250px;
           margin-top: 14px;
-          margin-left: -40px;
+          margin-left: -55px;
         }
       }
     }
@@ -536,5 +537,124 @@
 .logotip:nth-child(2) {
   .logo-title {
     padding-top: 24px;
+  }
+}
+.logotip-2 {
+   width: 183px;
+   margin-left: -30px;
+   .logo-title {
+    margin-top: 31.79px;
+    span {
+      font-family: "Exo 2";
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 27px;
+      color: #363738;
+    }
+    p {
+      font-family: "PT Sans";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #6b6b6c;
+      padding-top: 14px;
+      width: 220px;
+    }
+  }
+}
+.logotip-3 {
+    width: 183px;
+    margin-left: -30px;
+    .logotip-img {
+      margin-left: -20px;
+    }
+  .logo-title {
+    padding-top: 59px;
+    span {
+      font-family: "Exo 2";
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 27px;
+      color: #363738;
+  }
+  p {
+      font-family: "PT Sans";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #6b6b6c;
+      padding-top: 14px;
+      width: 220px;
+      margin-left: -20px;
+  }
+}
+}
+.logotip:nth-child(5) {
+  .logotip-img {
+    margin-left: -20px;
+  }
+}
+.company-section {
+  max-width: 1212px;
+  // padding: 0px 100px 130px 100px;
+  h2 {
+    font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #363738;
+  }
+  .company-carts {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .company-cart {
+      box-shadow: 0px 4px 15px 0px #00000026;
+      width: 605px;
+      border-radius: 10px;
+      margin-top: 72px;
+      padding: 32px 0px 40px 83px;
+      position: relative;
+      .rotation {
+        width: 51px;
+        height: 210px;
+        background-color: #0B7572;
+        position: absolute;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        top: 0px;
+        left: 0px;
+      }
+      .company-about {
+        display: flex;
+        gap: 40px;
+        // align-items: center;
+        .employees-info {
+          padding-top: 15px;
+          h4 {
+            font-family: 'Exo 2';
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #363738;
+          }
+          p {
+            font-family: 'PT Sans';
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            color: #6B6B6C;
+            padding-top: 12px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #FFCE50
+          }
+          .social-links {
+            display: flex;
+            gap: 20px;
+            padding-top: 35px;
+          }
+        }
+      }
+    }
   }
 }
