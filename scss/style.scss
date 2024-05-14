@@ -9,13 +9,15 @@
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 100px;
+
   .truck-section {
     display: flex;
     margin-top: 109px;
     gap: 80px;
+
     .truck-info {
       margin-top: 81px;
+
       h1 {
         font-family: "Exo 2";
         font-size: 52px;
@@ -40,6 +42,9 @@
         color: #363738;
         border-bottom: 3px solid #ffce50;
         width: 104px;
+      }
+      .truck-img {
+        background-size: cover;
       }
     }
   }
@@ -540,9 +545,9 @@
   }
 }
 .logotip-2 {
-   width: 183px;
-   margin-left: -30px;
-   .logo-title {
+  width: 183px;
+  margin-left: -30px;
+  .logo-title {
     margin-top: 31.79px;
     span {
       font-family: "Exo 2";
@@ -563,11 +568,11 @@
   }
 }
 .logotip-3 {
-    width: 183px;
-    margin-left: -30px;
-    .logotip-img {
-      margin-left: -20px;
-    }
+  width: 183px;
+  margin-left: -30px;
+  .logotip-img {
+    margin-left: -20px;
+  }
   .logo-title {
     padding-top: 59px;
     span {
@@ -576,8 +581,8 @@
       font-weight: 600;
       line-height: 27px;
       color: #363738;
-  }
-  p {
+    }
+    p {
       font-family: "PT Sans";
       font-size: 14px;
       font-weight: 400;
@@ -586,8 +591,8 @@
       padding-top: 14px;
       width: 220px;
       margin-left: -20px;
+    }
   }
-}
 }
 .logotip:nth-child(5) {
   .logotip-img {
@@ -595,30 +600,32 @@
   }
 }
 .company-section {
-  max-width: 1212px;
+  max-width: 1240px;
+  margin-bottom: 130px;
   // padding: 0px 100px 130px 100px;
   h2 {
-    font-family: 'Exo 2';
+    font-family: "Exo 2";
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
     color: #363738;
+    margin-bottom: 72px;
   }
   .company-carts {
     display: flex;
     align-items: center;
+    gap: 30px;
     flex-wrap: wrap;
     .company-cart {
       box-shadow: 0px 4px 15px 0px #00000026;
       width: 605px;
       border-radius: 10px;
-      margin-top: 72px;
       padding: 32px 0px 40px 83px;
       position: relative;
       .rotation {
         width: 51px;
         height: 210px;
-        background-color: #0B7572;
+        background-color: #0b7572;
         position: absolute;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -632,21 +639,21 @@
         .employees-info {
           padding-top: 15px;
           h4 {
-            font-family: 'Exo 2';
+            font-family: "Exo 2";
             font-size: 20px;
             font-weight: 600;
             line-height: 24px;
             color: #363738;
           }
           p {
-            font-family: 'PT Sans';
+            font-family: "PT Sans";
             font-size: 14px;
             font-weight: 400;
             line-height: 21px;
-            color: #6B6B6C;
+            color: #6b6b6c;
             padding-top: 12px;
             padding-bottom: 10px;
-            border-bottom: 3px solid #FFCE50
+            border-bottom: 3px solid #ffce50;
           }
           .social-links {
             display: flex;
@@ -656,5 +663,285 @@
         }
       }
     }
+  }
+}
+.contacts-section {
+  max-width: 1240px;
+  margin-bottom: 46px;
+  h3 {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #363738;
+  }
+  .contacts-wrapper {
+    display: flex;
+    gap: 198px;
+    // align-items: center;
+    .contacts {
+      margin-top: 94px;
+      width: 248px;
+      .tel-wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 44px;
+        gap: 36.7px;
+        .tel-text {
+          p {
+            font-family: "PT Sans";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            color: #6b6b6c;
+          }
+          span {
+            font-family: "Exo 2";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #363738;
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+.tel-about-wrapper {
+  margin-top: 72px;
+  width: 794px;
+  border: 1px solid #e9eaf2;
+  background-color: #f9f9fb;
+  border-radius: 5px;
+  padding: 0px 72px 56px 48px;
+  .tel-info-wrapper {
+    .tel-info {
+      border-bottom: 1px solid #e9eaf2;
+      padding-bottom: 16px;
+      .full-name {
+        display: flex;
+        gap: 56px;
+        p {
+          font-family: "PT Sans";
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 20px;
+          color: #6b6b6c;
+          width: 175px;
+          padding-top: 32px;
+        }
+        span {
+          font-family: "Exo 2";
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 20px;
+          color: #363738;
+          padding-top: 30px;
+        }
+      }
+    }
+  }
+}
+.video-section {
+  max-width: 1245px;
+}
+.footer-section {
+  max-width: 1440px;
+  width: 100%;
+  margin-top: 166px;
+  background-color: #0b7572;
+  padding: 59px 0px 29px 95px;
+  margin-left: -50px;
+  margin-bottom: 50px;
+  .footer-wrapper {
+    display: flex;
+    .wrapper {
+      display: flex;
+      gap: 134px;
+      .logo-title {
+        cursor: pointer;
+        h3 {
+          font-family: "Familjen Grotesk";
+          font-size: 60px;
+          font-weight: 500;
+          line-height: 90px;
+          letter-spacing: 0.16em;
+          color: #ffffff;
+        }
+      }
+    }
+    .category {
+      display: flex;
+      margin-top: 29px;
+      gap: 97px;
+      .catalog {
+        p {
+          font-family: "Exo 2";
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 19.5px;
+          letter-spacing: 0.16em;
+          color: #ffffff;
+          margin-bottom: 35px;
+          cursor: pointer;
+        }
+      }
+      .configs {
+        p {
+          font-family: "Exo 2";
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 19.5px;
+          letter-spacing: 0.16em;
+          color: #ffffff;
+          margin-bottom: 25px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.social-wrapper {
+  margin-top: 29px;
+  .links {
+    display: flex;
+    gap: 14.43px;
+    margin-bottom: 32.18px;
+  }
+  p {
+    font-family: "Exo 2";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #ffffff;
+    margin-bottom: 32px;
+  }
+  .btn {
+    button {
+      border: none;
+      padding: 7px 11.13px 8px 11px;
+      border: 1px solid #ff9619;
+      background-color: #ff9619;
+      cursor: pointer;
+      transition: all 0.5s;
+      span {
+        width: 220px;
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19.5px;
+        color: #ffffff;
+        transition: all 0.6s;
+        img {
+          padding-left: 14.42px;
+        }
+      }
+      span:hover {
+        color: #ff9619;
+      }
+    }
+    button:hover {
+      transform: scale(1.1);
+      background-color: white;
+    }
+  }
+}
+.footer {
+  text-align: center;
+  margin-top: 79px;
+  p {
+    font-family: "Exo 2";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.16em;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .truck-section {
+    display: flex;
+    flex-direction: column;
+    .truck-info {
+      text-align: center;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 355px;
+  }
+  .truck-section {
+    display: flex;
+    flex-direction: column;
+    .truck-info {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .truck-img {
+      img {
+        background-size: cover;
+        width: 690px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .search-section {
+    display: block;
+    width: 690px;
+    height: 524px;
+    box-shadow: none;
+    border: none;
+    .search {
+      width: 690px;
+      height: 164px;
+      display: flex;
+      align-items: center;
+      border-right: none;
+      padding-left: 0;
+      gap: 32px;
+      box-shadow: 0px 4px 15px 0px #0000001F;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      .search-img:nth-child(1) {
+        padding-left: 32px;
+      }
+      .search-img:nth-child(2) {
+        padding-left: -32px;
+        margin-left: -45px;
+      }
+      .search-text {
+        h4 {
+          width: 359px;
+          font-size: 21px;
+          height: 21px;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 16px;
+          width: 394px;
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 729px) {
+  .lorem-section {
+    display: block;
+  }
+  .lorem-ipsum {
+    width: 537px;
   }
 }
